@@ -3,6 +3,7 @@ kind: Service
 
 metadata:
   name: gitops-app-service
+  namespace: default
 
 spec:
   selector:

@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: gitops-app
+  namespace: default
 
 spec:
   replicas: 2
