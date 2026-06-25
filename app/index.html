@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitOps Continuous Delivery with ArgoCD</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:70px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+    color:#60a5fa;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+.workflow{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.step{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    min-width:180px;
+    text-align:center;
+}
+
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.tech{
+    background:#2563eb;
+    padding:12px 20px;
+    border-radius:30px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>GitOps Continuous Delivery using ArgoCD</h1>
+    <p>
+        Automated Kubernetes deployments using GitOps principles.
+        ArgoCD continuously monitors GitHub repositories and synchronizes
+        application changes directly to the Kubernetes cluster.
+    </p>
+</header>
+
+<section class="section container">
+    <h2 class="section-title">Project Overview</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>GitOps</h3>
+            <p>
+                Git serves as the single source of truth for Kubernetes deployments.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Continuous Delivery</h3>
+            <p>
+                Every code change pushed to GitHub is automatically deployed.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>ArgoCD</h3>
+            <p>
+                Declarative delivery tool that keeps cluster state synchronized.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Kubernetes</h3>
+            <p>
+                Container orchestration platform for scalable deployments.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section container">
+    <h2 class="section-title">Deployment Workflow</h2>
+
+    <div class="workflow">
+        <div class="step">Developer</div>
+        <div class="step">GitHub</div>
+        <div class="step">ArgoCD</div>
+        <div class="step">Kubernetes</div>
+        <div class="step">Live Application</div>
+    </div>
+</section>
+
+<section class="section container">
+    <h2 class="section-title">Technology Stack</h2>
+
+    <div class="tech-stack">
+        <div class="tech">Docker</div>
+        <div class="tech">Kubernetes</div>
+        <div class="tech">ArgoCD</div>
+        <div class="tech">GitHub</div>
+        <div class="tech">Git</div>
+        <div class="tech">Nginx</div>
+        <div class="tech">CI/CD</div>
+        <div class="tech">DevOps</div>
+    </div>
+</section>
+
+<section class="section container">
+    <h2 class="section-title">Key Features</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Automated Sync</h3>
+            <p>Automatically deploys Git changes to Kubernetes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Self Healing</h3>
+            <p>Detects drift and restores desired state.</p>
+        </div>
+
+        <div class="card">
+            <h3>Version Control</h3>
+            <p>All infrastructure and deployments stored in Git.</p>
+        </div>
+
+        <div class="card">
+            <h3>Rollback Support</h3>
+            <p>Quickly revert to previous working versions.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h3>GitOps Continuous Delivery on Kubernetes using ArgoCD</h3>
+    <p>DevOps Project Portfolio</p>
+</footer>
+
+</body>
+</html>
