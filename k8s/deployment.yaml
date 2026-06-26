@@ -20,7 +20,8 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: nginx:latest
+        image: puneet8580/gitops-app:v1
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
