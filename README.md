@@ -264,7 +264,7 @@ Before running this project, install:
 
 ```bash
 
-git clone <repository-url>
+git clone https://github.com/Puneet-Xt/gitops-argocd-project
 
 cd gitops-argocd-project
 
