@@ -564,7 +564,7 @@ After completing this project, I gained practical experience with:
 
 
 
-\*\*Punnet Kumar\*\*
+\*\*Puneet Kumar\*\*
 
 
 
